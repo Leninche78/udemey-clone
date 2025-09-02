@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+/* Navbar*/
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s1__title{
+    color: #a435f0;
+}
+
+.navbar__s2{
+    display: flex;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 10px   ;
+    align-items: center;
+}
+
+/*Category*/
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid black 1px;
+}
+.category p{
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Sale image*/
+.sale-iamge img{
+    width: 200px;
+}
+
+/* Recomended*/
+.recomended{
+    padding: 10px;
+}
+.recomended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.course-card{
+    width: 250px;
+}
+.course-card img{
+    width: 100%;
+    height: 60%;
+}
+
+/*Topics*/
+.topics{
+    padding: 10px;
+}
+.topic__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+}
+.topic__container p{
+    border: solid grey 2px;
+    flex-basis: 25%;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/*Most popular*/
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
